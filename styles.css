@@ -555,7 +555,10 @@ footer{
         - add the puppy-photo as a repeating background to the container
 */
 #bg-img-3{
-    
+    background-color: var(--lt-blue);
+    background-image: url("images/puppy-photo.jpg");
+    background-repeat: repeat;
+    background-position: center;  
 }
 
 /* For the fourth div, let's style this like the second div, but let's change the height of the div to 100px, so it fits the height of the image. It will make it look like the image and div are the same height */
@@ -582,7 +585,9 @@ footer{
         - add the wood background texture from the images folder
 */
 #pattern1{
-    
+    background-color: (var(--light-gray));
+    background-size: 110%;
+    background-image: url("images/wood.png");
 }
 
 /* For the second div, the pattern is from from Hero Pattern. These actually give you SVG code to paste into your CSS */
@@ -639,6 +644,7 @@ footer{
         - float the image to the right
 */
 #dog-house{
+    float: right;
     
 }
 
@@ -648,7 +654,7 @@ footer{
         - clear any floats
 */
 #section9{
-    
+    clear: both;
 }
 
 /* ------------- SECTION 9 STYLES ---------------- */
